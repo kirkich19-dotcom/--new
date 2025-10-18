@@ -1,0 +1,19 @@
+
+.button {
+    color: var(--color-background);
+    background: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 16px 32px;
+}
+
+.button:hover {
+    color: var(--color-brand-dark);
+    background-color: transparent;
+}
+
+.button:focus {
+    background-color: pink;
+}

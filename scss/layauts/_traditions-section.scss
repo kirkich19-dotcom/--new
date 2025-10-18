@@ -1,0 +1,34 @@
+/*traditions-sector*/
+    .traditions-section {
+    padding-top: 96px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    
+    
+    &__content {
+    max-width: 710px;
+        }
+    &__tittle {
+    font-size: 64px;
+    margin-bottom: 42px;
+    }
+    &__text {
+    &--uppercase {
+    color: var(--color-brand-light);
+    text-transform: uppercase;
+     }
+   &--brand{
+    color: var(--color-brand-light);
+        font-weight: 600;
+   }
+        }
+    }
+        
+    
+
+
+    

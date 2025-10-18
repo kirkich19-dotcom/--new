@@ -1,0 +1,48 @@
+/*formates section*/
+.formates-section{
+&__container {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+
+        .formates-section__card {
+        height: 444px;
+        border: solid var(--color-brand-light);
+        background: linear-gradient(180deg,
+                rgba(49, 38, 26, 0) 55.21%,
+                rgba(49, 38, 26, 0.71) 72.92%,
+                #31261a 100%);
+        border-radius: 16px;
+        padding: 24px;
+        transition: transform 0.3s
+    }
+        .formates-section__card:hover {
+            transform: scale(1.05)
+        }
+
+
+    &__title {
+        font-size: 64px;
+        font-weight: 900;
+        
+        &--centered {
+                margin-bottom: 80px;
+                text-align: center;
+            }
+    }
+
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__item {
+        flex-basis: (100%)/3;
+    }
+}

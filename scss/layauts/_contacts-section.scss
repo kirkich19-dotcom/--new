@@ -1,0 +1,21 @@
+/*contacts-section*/
+.contacts-section {
+    padding-bottom: 96px;
+
+    &__container {
+            display: flex;
+            gap: 32px;
+        }
+    
+        &__title {
+            margin-bottom: 10px;
+        }
+
+        &__map {
+            flex-shrink: 0;
+            border: none;
+            border-radius: 16px;
+            padding-top: 96px;
+        }
+}
+

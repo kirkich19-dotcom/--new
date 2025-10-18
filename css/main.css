@@ -1,0 +1,758 @@
+@charset "UTF-8";
+/* poppins-100 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/poppins-v23-latin-100.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-100italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/poppins-v23-latin-100italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-200 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/poppins-v23-latin-200.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-200italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/poppins-v23-latin-200italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v23-latin-300.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/poppins-v23-latin-300italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v23-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/poppins-v23-latin-italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v23-latin-500.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/poppins-v23-latin-500italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v23-latin-600.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/poppins-v23-latin-600italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v23-latin-700.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/poppins-v23-latin-700italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v23-latin-800.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/poppins-v23-latin-800italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v23-latin-900.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900italic - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/poppins-v23-latin-900italic.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --color-brand-light: #819b57;
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-primary-light: #465929;
+  --color-primary-grey: #a18268;
+  --color-background: #faf4ea;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+* ::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-primary-dark);
+  background-color: var(--color-background);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 80px;
+}
+
+a {
+  display: inline-block;
+}
+
+p {
+  display: block;
+  margin-top: 0;
+}
+
+section {
+  padding-top: 96px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.button {
+  color: var(--color-background);
+  background: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 16px 32px;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.button:focus {
+  background-color: pink;
+}
+
+.link {
+  color: var(--color-primary-light);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 600;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header__header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+.header__header-menu {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header__header-menu {
+    display: flex;
+    gap: 64px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+}
+.header__button {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header__button {
+    display: block;
+  }
+}
+.header__burger {
+  display: block;
+  background-color: transparent;
+  border: none;
+  fill: var(--color-primary-dark);
+}
+@media screen and (min-width: 1200px) {
+  .header__burger {
+    display: none;
+  }
+}
+
+.hero-section {
+  padding: 272px 0;
+  background-image: linear-gradient(127deg, rgba(18, 18, 17, 0.78) 0%, rgba(18, 18, 17, 0.6) 63.89%, rgba(18, 18, 17, 0) 100%), url(../images/комфортна\ пекарня.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.hero-section__hero-title {
+  color: var(--color-background);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 124px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.hero-section__hero-title--accent {
+  color: var(--color-brand-light);
+}
+@media screen and (min-width: 768px) {
+  .hero-section__hero-title {
+    font-size: 128px;
+    line-height: 1.5;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-background);
+  transform: translateX(-100%);
+  transform: translate 0.3s;
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+.mobile-menu__button-close {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+
+/* advantaages-section*/
+.advantges-section {
+  background-color: var(--color-brand-light);
+  padding: 16px 0;
+}
+
+.advantages-section__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.section__title {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 131%;
+}
+
+.section__title {
+  color: var(--color-primary-dark);
+}
+
+.advantages-section__items {
+  color: var(--color-primary-light);
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/*chfes-section*/
+.chefs-section__title {
+  max-width: 520px;
+  margin: 0 auto 80px;
+  position: relative;
+  font-size: 64px;
+}
+.chefs-section__title--centered {
+  text-align: center;
+}
+
+.span {
+  color: #465929;
+}
+
+.chefs-tittle.span {
+  color: var(--color-brand-light);
+}
+
+.chef-tittle {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.chefs-tittle::before,
+.chefs-tittle::after {
+  position: absolute;
+  bottom: 24px;
+  width: 352px;
+  border: 2px solid var(--color-primary-grey);
+  content: "";
+}
+
+.chefs-tittle::after {
+  right: 0;
+}
+
+.chefs-tittle::before {
+  left: 0;
+}
+
+.chefs-image {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-background), -16px 16px 0 2px var(--color-primary-grey);
+}
+
+.chefs-list {
+  display: flex;
+  gap: 30px;
+}
+
+.chefs-item {
+  display: flex;
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+.chefs-card {
+  display: flex;
+  gap: 30px;
+}
+
+/*traditions-sector*/
+.traditions-section {
+  padding-top: 96px;
+}
+.traditions-section__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.traditions-section__content {
+  max-width: 710px;
+}
+.traditions-section__tittle {
+  font-size: 64px;
+  margin-bottom: 42px;
+}
+.traditions-section__text--uppercase {
+  color: var(--color-brand-light);
+  text-transform: uppercase;
+}
+.traditions-section__text--brand {
+  color: var(--color-brand-light);
+  font-weight: 600;
+}
+
+/*formates section*/
+.formates-section__container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.formates-section .formates-section__card {
+  height: 444px;
+  border: solid var(--color-brand-light);
+  background: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, #31261a 100%);
+  border-radius: 16px;
+  padding: 24px;
+  transition: transform 0.3s;
+}
+.formates-section .formates-section__card:hover {
+  transform: scale(1.05);
+}
+.formates-section__title {
+  font-size: 64px;
+  font-weight: 900;
+}
+.formates-section__title--centered {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.formates-section__text {
+  font-size: 14px;
+  font-weight: 300;
+}
+.formates-section__list {
+  display: flex;
+  gap: 20px;
+}
+.formates-section__item {
+  flex-basis: 33.3333333333%;
+}
+
+/*contacts-section*/
+.contacts-section {
+  padding-bottom: 96px;
+}
+.contacts-section__container {
+  display: flex;
+  gap: 32px;
+}
+.contacts-section__title {
+  margin-bottom: 10px;
+}
+.contacts-section__map {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 16px;
+  padding-top: 96px;
+}
+
+/*footer*/
+.footer {
+  padding-top: 32px;
+  position: relative;
+}
+
+.footer-container {
+  gap: 20px;
+  display: flex;
+}
+
+.footer-nav {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+
+.footer-adress {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+
+.footer-info {
+  display: flex;
+}
+
+.footer-logo {
+  flex-grow: 1;
+}
+
+.footer.menu {
+  flex-grow: 1;
+}
+
+.adress-list,
+.address-info {
+  flex-grow: 1;
+}
+
+.footer::before {
+  width: 180px;
+  height: 120px;
+  background-size: 100%;
+  bottom: 0;
+  position: absolute;
+  background-image: url("../images/1bread.png");
+  content: "";
+}
+
+.footer::after {
+  width: 278px;
+  height: 213px;
+  background-size: 100%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("../images/2breads.png");
+  content: "";
+}
+
+.information {
+  color: var(--color-background);
+  font-weight: 600;
+}
+
+.footer {
+  background-image: url("../images/ff.png");
+  background-color: var(--color-primary-dark);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.adress-link {
+  -moz-columns: var(--color-primary-light);
+       columns: var(--color-primary-light);
+  font-style: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.adress-link:hover {
+  color: var(--color-brand-light);
+}
+
+.adress-icons {
+  fill: var(--color-background);
+}
+
+.adress-icons:hover {
+  stroke: var(--color-brand-light);
+  stroke-width: 1.5px;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+/*Modal*/
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal {
+  position: relative;
+  width: 100%;
+  border-radius: 48px;
+  padding: 128px;
+  max-width: 723px;
+  max-height: 681px;
+  height: 100%;
+  background-color: var(--color-background);
+  border-radius: 32px;
+  overflow: auto;
+}
+
+.modal-button-close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  transition-property: transform;
+  transition-duration: 1s;
+  border: 2px solid;
+  border-radius: 32px;
+  border-color: var(--color-brand-light);
+  background-color: var(--color-brand-light);
+  color: var(--color-primary-dark);
+  font-weight: 300px;
+  cursor: pointer;
+}
+
+.modal-button-close:hover {
+  background-color: var(--color-background);
+  transform: scale(1.5);
+  transform: rotate(1turn);
+}
+
+/*Form*/
+.contacts-section__form-tittle {
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contacts-section__form-text {
+  color: var(--color-brand-light);
+  margin-bottom: 42px;
+}
+.contacts-section__input {
+  padding: 16px 42px;
+  width: 605px;
+  border: 1px solid var(--color-primary-grey);
+  border-radius: 8px;
+  background-color: transparent;
+}
+.contacts-section__form-field {
+  position: relative;
+  margin-bottom: 32px;
+}
+.contacts-section__form-lable {
+  top: 16px;
+  left: 42px;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--color-primary-grey);
+  transition: transform 0.3s;
+}
+.contacts-section__input:focus {
+  border-color: var(--color-brand-light);
+  color: var(--color-primary-dark);
+  outline: none;
+}
+
+.form-button {
+  margin: 0 auto;
+  display: block;
+}
+
+.useless {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 146%;
+  text-align: center;
+  color: var(--color-primary-dark);
+  padding-top: 24px;
+}
+
+.useless-link {
+  color: var(--color-primary-dark);
+}
+
+.form-trxt {
+  text-align: center;
+  margin-bottom: 72px;
+  color: var(--color-brand-light);
+}/*# sourceMappingURL=main.css.map */

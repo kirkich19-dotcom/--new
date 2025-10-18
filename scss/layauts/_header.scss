@@ -1,0 +1,47 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    &__header-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ &__header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+ &__header-menu {
+    display: none;
+
+    @media screen and (min-width:$bp-laptop) {
+        display: flex;
+            gap: 64px;
+            flex-grow: 1;
+            justify-content: center;
+    }
+ }
+ &__button{
+    display: none;
+
+    @media screen and (min-width:$bp-laptop) {
+        display: block;
+        }
+ }
+ &__burger{
+    display: block;
+    background-color: transparent;
+    border: none;
+    fill: var(--color-primary-dark);
+
+    @media screen and (min-width:$bp-laptop) {
+        display: none;
+        }
+ }
+}
